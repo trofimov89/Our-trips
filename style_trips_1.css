@@ -1,0 +1,75 @@
+body {
+  background-image: url("http://dodskypict.com/D/World-Map-Wallpaper-On-Wallpaper-Hd.jpg");
+}
+
+hr {
+	border-top: 3px double #8c8b8b;
+}
+.card-img-top {
+  height: 141px;
+}
+a {
+  color: white;
+}
+
+
+.flag_lt {
+ background-color:yellow;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=yellow, endColorstr=green);
+ background-image:-moz-linear-gradient(top, yellow 33%, green 33%,red 100%);
+background-image:linear-gradient(top, yellow 33%, green 33%,red 100%);
+background-image:-webkit-linear-gradient(top, yellow 33%, green 33%,red 100%);
+background-image:-o-linear-gradient(top, yellow 33%, green 33%,red 100%);
+background-image:-ms-linear-gradient(top, yellow 33%, green 33%,red 100%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(33%,yellow), color-stop(33%,green),color-stop(100%,red));
+opacity: 0.8;}
+
+.flag_de {
+ background-color:#000000;
+ filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#000000, endColorstr=red);
+ background-image:-moz-linear-gradient(top, #000000 33%, red 37%,yellow 72%);
+background-image:linear-gradient(top, #000000 33%, red 37%,yellow 72%);
+background-image:-webkit-linear-gradient(top, #000000 33%, red 37%,yellow 72%);
+background-image:-o-linear-gradient(top, #000000 33%, red 37%,yellow 72%);
+background-image:-ms-linear-gradient(top, #000000 33%, red 37%,yellow 72%);
+ background-image:-webkit-gradient(linear, right top, right bottom, color-stop(33%,#000000), color-stop(37%,red),color-stop(72%,yellow));
+color: #c8d2ff;}
+
+
+.overlay {
+       position: absolute;
+
+       bottom: 0;
+       left: 0;
+
+       height: 100%;
+       width: 100%;
+       opacity: 0;
+       transition: .5s ease;
+       background-color:grey;
+}
+
+.text {
+   color: white;;
+   font-size: 20px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+}
+.foto {
+   margin:0;
+   position:relative;
+}
+
+.foto:hover .overlay{
+   opacity:0.8;
+}
+
+.img-float-left img {
+  float: left;
+}
+.img-float-right img {
+  float: right;
+}
